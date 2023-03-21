@@ -1,0 +1,8 @@
+pages\BasePage.class
+utilities\DataSet.class
+pages\DarazLogInPage.class
+pages\DarazAssusLaptopPage.class
+pages\DarazHomePage.class
+testcases\LogInPageTesting.class
+testcases\HomePageTesting.class
+utilities\DriverSetup.class

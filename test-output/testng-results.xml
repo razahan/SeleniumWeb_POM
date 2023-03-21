@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-20T22:39:36 BDT" name="Suite" finished-at="2023-03-20T22:40:37 BDT" duration-ms="60955">
+    <groups>
+    </groups>
+    <test started-at="2023-03-20T22:39:36 BDT" name="Test" finished-at="2023-03-20T22:40:37 BDT" duration-ms="60955">
+      <class name="testcases.LogInPageTesting">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.LogInPageTesting@35841320]" started-at="2023-03-20T22:39:36 BDT" name="setBrowser" finished-at="2023-03-20T22:39:41 BDT" duration-ms="4962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="testLogInWithInValidCredentialPassword()[pri:0, instance:testcases.LogInPageTesting@35841320]" started-at="2023-03-20T22:39:41 BDT" name="testLogInWithInValidCredentialPassword" description="Login page testing with invalid password credential !" finished-at="2023-03-20T22:39:54 BDT" duration-ms="12394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithInValidCredentialPassword -->
+        <test-method signature="testLogInWithInValidCredentialUserName()[pri:0, instance:testcases.LogInPageTesting@35841320]" started-at="2023-03-20T22:39:54 BDT" name="testLogInWithInValidCredentialUserName" description="Login page testing with invalid username credential !" finished-at="2023-03-20T22:40:06 BDT" duration-ms="11956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithInValidCredentialUserName -->
+        <test-method signature="testLogInWithInValidCredentialUsingDataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LogInPageTesting@35841320]" started-at="2023-03-20T22:40:06 BDT" name="testLogInWithInValidCredentialUsingDataProvider" data-provider="invalidCredentials" finished-at="2023-03-20T22:40:17 BDT" duration-ms="10731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[121212121]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123srb456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter a valid phone number.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithInValidCredentialUsingDataProvider -->
+        <test-method signature="testLogInWithInValidCredentialUsingDataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LogInPageTesting@35841320]" started-at="2023-03-20T22:40:17 BDT" name="testLogInWithInValidCredentialUsingDataProvider" data-provider="invalidCredentials" finished-at="2023-03-20T22:40:25 BDT" duration-ms="8322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wearhanger016@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4566546]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Incorrect username or password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithInValidCredentialUsingDataProvider -->
+        <test-method signature="testLogInWithValidCredential()[pri:0, instance:testcases.LogInPageTesting@35841320]" started-at="2023-03-20T22:40:25 BDT" name="testLogInWithValidCredential" description="Login page testing with valid credential !" finished-at="2023-03-20T22:40:36 BDT" duration-ms="10568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidCredential -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.LogInPageTesting@35841320]" started-at="2023-03-20T22:40:36 BDT" name="quitBrowser" finished-at="2023-03-20T22:40:37 BDT" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.LogInPageTesting -->
+      <class name="testcases.HomePageTesting">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.HomePageTesting@304bb45b]" started-at="2023-03-20T22:39:36 BDT" name="setBrowser" finished-at="2023-03-20T22:39:46 BDT" duration-ms="9340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="TestHomePageTitle()[pri:0, instance:testcases.HomePageTesting@304bb45b]" started-at="2023-03-20T22:39:46 BDT" name="TestHomePageTitle" description="Homepage testing with credential" finished-at="2023-03-20T22:40:06 BDT" duration-ms="20400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePageTitle -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.HomePageTesting@304bb45b]" started-at="2023-03-20T22:40:06 BDT" name="quitBrowser" finished-at="2023-03-20T22:40:08 BDT" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.HomePageTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
